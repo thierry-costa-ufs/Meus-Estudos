@@ -1,0 +1,7 @@
+.book-cover {
+    width: 200px;          /* Largura fixa */
+    height: 300px;         /* Altura proporcional */
+    object-fit: cover;     /* Mantém a proporção cortando o excesso */
+    object-position: center; /* Centraliza a imagem */
+    max-width: 100%;       /* Garante responsividade */
+}

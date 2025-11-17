@@ -1,0 +1,95 @@
+/* Tons foscos inspirados em quartzo e ametista */
+.bg-quartzo {
+  background-color: #f2e4e9; /* rosa quartzo fosco */
+}
+
+.bg-ametista {
+  background-color: #a093b5; /* ametista suave fosco */
+}
+
+/* Navbar ajustada */
+#mainNavbar {
+  transition: top 0.3s;
+}
+
+/* Paleta fosca inspirada em quartzo e ametista */
+:root {
+  --quartzo-claro: #f2e4e9;
+  --quartzo-medio: #e3cdd5;
+  --ametista-claro: #c7bddd;
+  --ametista: #a093b5;
+  --ametista-escuro: #7d6d99;
+  --cinza: #f8f9fa;
+  --cinza-escuro: #6c757d;
+}
+
+/* Sidebar moderna */
+.sidebar {
+  background-color: var(--quartzo-claro);
+  border-right: 1px solid #ddd;
+  padding: 1.5rem;
+  min-height: 100%;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+.sidebar h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.sidebar .section-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: var(--ametista-escuro);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.sidebar .nav-link {
+  color: #555;
+  padding-left: 0;
+  font-size: 0.95rem;
+}
+
+.sidebar .nav-link:hover {
+  color: var(--ametista);
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  background-color: var(--ametista);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #eee;
+}
+
+/* Ajustes gerais */
+body {
+  background-color: var(--cinza);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+footer {
+  background-color: var(--cinza);
+  font-size: 0.9rem;
+}
+
+main {
+  padding: 2rem 1rem;
+}
